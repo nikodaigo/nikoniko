@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>エドガー・ノートン | 名脇役の軌跡</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      line-height: 1.8;
+    }
+    header {
+      background: linear-gradient(135deg, #6d83f2, #8999f7);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      padding: 14px 20px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background-color: #f0f0f0;
+    }
+    main {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      animation: fadeIn 0.6s ease;
+    }
+    section h2 {
+      margin-top: 0;
+      color: #6d83f2;
+      border-left: 4px solid #6d83f2;
+      padding-left: 10px;
+      font-size: 1.4em;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 6px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #6d83f2;
+      color: white;
+      margin-top: 30px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (min-width: 800px) {
+      main {
+        grid-template-columns: 2fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>エドガー・ノートン</h1>
+    <p>英国出身の名脇役 (1868 - 1953)</p>
+  </header>
+  <nav>
+    <a href="#biography">伝記</a>
+    <a href="#works">代表作</a>
+    <a href="#gallery">ギャラリー</a>
+    <a href="#links">参考</a>
+  </nav>
+  <main>
+    <section id="biography">
+      <h2>伝記</h2>
+      <p>
+        エドガー・ノートンは1868年8月11日にイングランドに生まれました。
+        若い頃から舞台俳優としてキャリアを積み、やがてハリウッドに活躍の場を移しました。
+        サイレント映画からトーキーへの移行期にも多くの作品に出演し、
+        落ち着いた紳士的な役柄で親しまれました。
+      </p>
+      <p>
+        1953年にアメリカでその生涯を閉じるまで、数多くの作品で印象深い脇役を演じました。
+      </p>
+    </section>
+    <section id="works">
+      <h2>代表作</h2>
+      <ul>
+        <li>シャーロック・ホームズ (1932)</li>
+        <li>ムーンライト・マーダー (1936)</li>
+        <li>The Bishop Murder Case (1930)</li>
+        <li>Bride of Frankenstein (1935)</li>
+        <li>Rebecca of Sunnybrook Farm (1932)</li>
+      </ul>
+    </section>
+    <section id="gallery">
+      <h2>ギャラリー</h2>
+      <div class="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Edgar_Norton_in_Moonlight_Murder.jpg" alt="ムーンライト・マーダー">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Edgar_Norton_1922.jpg" alt="若き日のノートン">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Edgar_Norton_in_Bride_of_Frankenstein.jpg" alt="Bride of Frankenstein">
+      </div>
+    </section>
+    <section id="links">
+      <h2>参考リンク</h2>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Edgar_Norton" target="_blank">Wikipedia: Edgar Norton</a></li>
+        <li><a href="https://www.imdb.com/name/nm0636385/" target="_blank">IMDb プロフィール</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 エドガー・ノートン紹介サイト
+  </footer>
+</body>
+</html>
